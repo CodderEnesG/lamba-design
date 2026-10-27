@@ -55,7 +55,7 @@ Karşılama ekranında üst çubuk da yok.
 
 - **Veli web sayfaları** (tarayıcıda): Veli onayı sayfası ve Haftalık rapor sayfası. Bölüm 7.
 - **Bildirimler** (ekran değil, metin olarak bilgi için):
-  - Sabah: "Bugünün planı hazır" / "≈ {süre} · {n} kitap. Başlamak için dokun."
+  - Sabah: "Bugünün planı hazır" / "≈ {süre} · {n} kitap · {m} video. Başlamak için dokun." (video yoksa yalnız kitap)
   - Akşam: "Bugün nasıl geçti?" / "Check-in yap; yarının planı ona göre ayarlanır."
   - Geç kalan check-in: "Check-in bekliyor" / "Bir dakikanı alır. Yapamadıysan da söyle, planı kaydıralım."
 - **Sistem pencereleri:** kamera ve galeri izinleri, paylaşım menüsü, onay uyarıları (Kaldır, Sil). Uyarılar
@@ -212,8 +212,8 @@ yok.
      - Gri: "{tarih} · {gün adı}", örn. "27 Ekim 2026 · Salı"
      - Büyük: "Sınava {gün} gün"
      - Seri varsa (1+ gün): "Seri: {gün} gün"
-     - Görev varsa, gri özet: "Bugün ≈ {süre} · {n} kitap" (süre "45 dk", "2 sa", "2 sa 30 dk" biçiminde).
-       Not: {n} kart sayısıdır; her video ayrı kart olduğu için videolar da "kitap" diye sayılıyor.
+     - Görev varsa, gri özet: "Bugün ≈ {süre} · {n} kitap · {m} video" (süre "45 dk", "2 sa", "2 sa 30 dk"
+       biçiminde; video ya da kitap yoksa o kısım yazılmaz). Karar 27 Ekim (DECISIONS.md).
   2. **Kitap yok kutusu** (hiç kaynak yoksa): çerçeveli kutu, "Planın kitaplarına göre kurulur. İlk kitabını
      ekle." ve birincil düğme "Kitap ekle".
   3. **Bugün iş yok satırı** (kaynak var ama bugün görev yok), gri:

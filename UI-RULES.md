@@ -21,8 +21,8 @@ değildir, hiçbir gerekçeyle gevşetilmez. Bir kısmı marka kılavuzundan, bi
   kapanır. Görsel olarak da yumuşak (ör. "Soluk"/"Sakin" duman, Alaaddin "Sakin"), kırmızı ya da alarm dili
   yok.
 - **Sert ton davranışa yöneliktir, kişiye değil.** Mikro metinde utandırma, kıyaslama, tehdit yok.
-- **YouTube:** video kartında içeriğin YouTube'dan geldiği açıkça görünür (şu an "▶ YouTube" etiketi; resmi
-  YouTube logosu ve marka kurallarına göre değiştirilecek) ve kanal adı yazar. Video uygulama içinde
+- **YouTube:** video kartında içeriğin YouTube'dan geldiği açıkça görünür: **resmi YouTube logosu, kendi
+  renkleriyle** (marka paletinin bilinçli istisnası; karar 27 Ekim) ve kanal adı. Video uygulama içinde
   oynatılmaz, "YouTube'da aç" ile açılır; oynatıcı taklidi, üstüne katman, kapak görüntüsünü değiştirme yok.
   Video izleme hiçbir zaman ödeme duvarının arkasına konmaz.
 - **Plan rakamlarını kural motoru üretir;** yapay zekâ sayı uydurmaz. Tasarımda "AI planı" ifadesi yerine
@@ -37,8 +37,8 @@ değildir, hiçbir gerekçeyle gevşetilmez. Bir kısmı marka kılavuzundan, bi
   koyu yüzey `#2A1F45`, koyu çizgi `#3A2D57`, koyu ikincil metin `#BDB2CF`; açık yüzey `#FBF6EC`, açık çizgi
   `#D9CCB4`, açık ikincil metin `#5C5170`. Kılavuzda olmayan renk kullanılmaz.
 - **Doğru / yanlış / uyarı için renk yok** (yeşil, kırmızı, sarı yok): işaret, metin ve şekille (tik, çarpı,
-  "Tekrar bak"). Bu, uygulamadaki şu anki kırmızı hata ve "Kaldır / Verileri sil" butonlarını da kapsar;
-  tehlikeli eylemlerin yeni dili tasarımla belirlenecek.
+  "Tekrar bak"). Tehlikeli eylemlerin dili onaylandı: kalın çerçeve, çöp kutusu ikonu, "Geri alınamaz", sistem
+  onayı (bkz. DECISIONS.md). Tek istisna YouTube logosu.
 - **Turuncu yalnız gece moru zeminde** (lamba, tek ana buton, önemli vurgu). Krem zeminde turuncu yazı ya da
   çizgi yok (kontrast 1,8:1); açık temada vurgu gece moruyla.
 - Gradyan ve şeffaf renk yok (tek istisna "soluk" duman).

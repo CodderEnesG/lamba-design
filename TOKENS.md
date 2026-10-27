@@ -19,11 +19,14 @@ tabloyu güncelle.
 | `muted-foreground` | Açıklama, ipucu | koyu ikincil `#BDB2CF` | açık ikincil `#5C5170` |
 | `border` / `input` | Ayırıcı, kenarlık, giriş alanı | koyu çizgi `#3A2D57` | açık çizgi `#D9CCB4` |
 | `ring` | Odak halkası | turuncu `#FF9F43` | gece moru `#1C1330` |
-| `destructive` | Hata, "Kaldır", "Verileri sil" | **Karar bekliyor** | **Karar bekliyor** |
+| `control` | Çerçeveli düğme ve giriş kenarı (bilgi taşır) | koyu ikincil `#BDB2CF` | açık ikincil `#5C5170` |
+| `emphasis` | Önemli vurgu | turuncu `#FF9F43` | gece moru `#1C1330` |
+| `stage` | Alaaddin ve duman kutusunun zemini | gece moru `#1C1330` | gece moru `#1C1330` |
+| `destructive` | Hata, "Kaldır", "Verileri sil" | Renk yok: kalın `control` çerçeve + ikon + metin | Aynı |
 
-**`destructive` için not:** marka kılavuzu kırmızıyı yasaklıyor (doğru/yanlış/uyarı renkle verilmez).
-Tehlikeli eylemler ve hatalar ikon, metin ve şekille ayrılmalı (ör. çarpı işareti, çerçeveli buton, "Geri
-alınamaz" yazısı). Tasarımda bunun nasıl görüneceği belirlenince bu satır doldurulur.
+**`destructive` (onaylandı, 27 Ekim):** kırmızı yok. Tehlikeli eylem kalın çerçeve, çöp kutusu ikonu, "Geri
+alınamaz" yazısı ve sistem onayıyla; hata çarpı ikonu ve "Tekrar bak: …" metniyle. `control`, `emphasis` ve
+`stage` 1. tasarım sürümünde eklendi (bkz. [DECISIONS.md](DECISIONS.md)).
 
 Yazı tipleri: başlık **Bricolage Grotesque**, metin ve butonlar **Source Sans 3** (ikisi de Google Fonts,
 açık lisans).

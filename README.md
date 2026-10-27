@@ -13,6 +13,7 @@ yok, olması da gerekmiyor.
 5. `brand/kilavuz/lamba-marka-kilavuzu.html`: marka kılavuzu (tarayıcıda aç). Logo, renk, yazı, duman
    durumları, Alaaddin, sahneler ve yapılmaması gerekenler.
 6. [FIGMA-PROMPTS.md](FIGMA-PROMPTS.md): Figma Make için sıralı istemler.
+7. [DECISIONS.md](DECISIONS.md): tasarımda verilen kararlar ve açık sorular. Her yeni adım bunlara uyar.
 
 ## Marka paketi (`brand/`)
 

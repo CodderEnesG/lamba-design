@@ -23,9 +23,26 @@ kararlarının asıl kaydı ana repodaki PROJECT-STATE'tir; burası tasarım iç
 | Ölçüler | Boşluk 4 pt tabanlı; köşeler 6, 10, 14, 20, 28; dokunma alanları 44, 52, 56. |
 | Sekme ikonları (SF Symbols) | sun.max, books.vertical, bubble.left.and.bubble.right, gearshape; seçili sekmede dolu ikon ve kalın etiket. |
 
+## Verildi (27 Ekim 2026, 3. sürüm: kurulum)
+
+| Konu | Karar |
+|---|---|
+| İlerleme göstergesi | Üstte geri okunun yanında 6 bölüt; başlığın üstünde "Adım n/6". |
+| Seçim kutusu ve çip | Seçili hali `foreground` dolgu ve tik (koyuda krem, açıkta gece moru). Turuncu yalnız tek ana eylemde: Başla, Devam, Planımı kur. TOKENS.md düzeltildi. |
+| Karşılama'da logo | **Yok.** Yalnız Alaaddin karşılama sahnesi; marka bir önceki açılış ekranında (gece moru zemin, lamba simgesi). Kılavuzun "yazı logosu ve simge aynı ekranda değil" kuralıyla da uyumlu. |
+| Alaaddin, kurulumda | Karşılama'da karşılama sahnesi, Hazırsın'da **"mutlu"** (kurulumun bitişi tek seferlik dönüm noktası; onaylandı). Aradaki adımlarda yok. |
+| Hazırsın özeti | Sınava kalan gün ve haftalık saat iki satırda, ikonlu. 18 altı kutusu ürün metnini aynen kullanır. |
+| Figma'nın eklediği metinler | Tarih kutularında "GG / AA / YYYY" ipucu ve Hazırsın hata sahnesi kabul. |
+| Ortak adım düzeni | Kurulum ve check-in adımları aynı düzeni (ilerleme, başlık, içerik, altta tek ana eylem) kullanır. |
+
+**Bugün ekranına henüz işlenmeyenler** (1. sürüm kararları, prototipte uygulanmalı): güvenli mod dumanı
+"sakin", "2 kitap · 1 video" sayımı, "gün tamam" koşulu, resmi YouTube logosu, tehlikeli eylem çerçevesinin
+rengi (`control`, kırmızı yok). Uygulamada sayım, YouTube logosu ve çerçeve var; duman ve sahneler henüz yok.
+
 ## Açık
 
 - **Açık temada duman ve sahneler:** duman SVG'lerinin ve çizimlerin açık zemin sürümü yok; şimdilik gece moru
   `stage` kutusunda. Açık zemin sürümleri marka tasarımcısından istenecek.
 - **Dinlenme günü ve sınava ≤ 30 gün duman önerileri** onay bekliyor.
 - **Gölge modu** ürün kararı bekliyor (henüz uygulamada yok).
+- **Klavye açık hali:** Devam'ın klavyenin üstüne yapışması prototipte yok; uygulamada yerel davranışla yapılır.

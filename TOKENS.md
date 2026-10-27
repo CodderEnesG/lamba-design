@@ -2,7 +2,7 @@
 
 Uygulamanın bileşenleri doğrudan renk değil **anlamsal adlar** kullanır (`bg-primary`, `text-foreground`).
 Yeni tasarım bu adlara eşlenir; böylece geliştirici yalnız tema dosyasını değiştirerek tüm ekranları yeni
-kimliğe geçirir. Şu anki geçici tema: [current-theme.css](current-theme.css) (siyah-beyaz yer tutucu).
+kimliğe geçirir. Uygulamadaki güncel tema: [current-theme.css](current-theme.css) (ana repodaki `global.css`'in kopyası).
 
 Aşağıdaki eşleme marka paletinden türetilmiş bir **öneri**dir; tasarım sırasında değişebilir. Değişirse bu
 tabloyu güncelle.
@@ -13,7 +13,7 @@ tabloyu güncelle.
 | `foreground` | Ana metin | krem `#F6EEE0` | gece moru `#1C1330` |
 | `card` | Görev kartı, panel | koyu yüzey `#2A1F45` | açık yüzey `#FBF6EC` |
 | `card-foreground` | Kart içi metin | krem `#F6EEE0` | gece moru `#1C1330` |
-| `primary` | Tek ana buton, seçili çip | turuncu `#FF9F43` | gece moru `#1C1330` |
+| `primary` | Tek ana eylem (ekranda bir tane) | turuncu `#FF9F43` | gece moru `#1C1330` |
 | `primary-foreground` | Ana buton yazısı | gece moru `#1C1330` | krem `#F6EEE0` |
 | `secondary` / `muted` / `accent` | İkincil buton, bant, pasif alan | koyu yüzey `#2A1F45` | açık yüzey `#FBF6EC` |
 | `muted-foreground` | Açıklama, ipucu | koyu ikincil `#BDB2CF` | açık ikincil `#5C5170` |
@@ -22,6 +22,7 @@ tabloyu güncelle.
 | `control` | Çerçeveli düğme ve giriş kenarı (bilgi taşır) | koyu ikincil `#BDB2CF` | açık ikincil `#5C5170` |
 | `emphasis` | Önemli vurgu | turuncu `#FF9F43` | gece moru `#1C1330` |
 | `stage` | Alaaddin ve duman kutusunun zemini | gece moru `#1C1330` | gece moru `#1C1330` |
+| Seçili çip ve seçim kutusu | `foreground` dolgu, `background` yazı, tik | krem `#F6EEE0` | gece moru `#1C1330` |
 | `destructive` | Hata, "Kaldır", "Verileri sil" | Renk yok: kalın `control` çerçeve + ikon + metin | Aynı |
 
 **`destructive` (onaylandı, 27 Ekim):** kırmızı yok. Tehlikeli eylem kalın çerçeve, çöp kutusu ikonu, "Geri

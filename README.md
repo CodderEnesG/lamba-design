@@ -10,9 +10,9 @@ yok, olması da gerekmiyor.
 2. [SCREENS.md](SCREENS.md): uygulamadaki tüm ekranlar; içerik, durumlar ve gerçek metinlerle.
 3. [UI-RULES.md](UI-RULES.md): değişmez ürün kuralları, marka kuralları, erişilebilirlik, teknik çerçeve.
 4. [TOKENS.md](TOKENS.md): renklerin uygulamadaki anlamsal adlara eşlenmesi (öneri).
-6. [FIGMA-PROMPTS.md](FIGMA-PROMPTS.md): Figma Make için sıralı istemler.
 5. `brand/kilavuz/lamba-marka-kilavuzu.html`: marka kılavuzu (tarayıcıda aç). Logo, renk, yazı, duman
    durumları, Alaaddin, sahneler ve yapılmaması gerekenler.
+6. [FIGMA-PROMPTS.md](FIGMA-PROMPTS.md): Figma Make için sıralı istemler.
 
 ## Marka paketi (`brand/`)
 
